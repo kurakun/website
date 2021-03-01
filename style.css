@@ -10,7 +10,7 @@ body {
     margin-left: 2em;
     max-width: 960px;
     width: 100%;
-    animation: fadeIn 9s ease-in-out infinite alternate;
+    animation: fadeIn 12s ease-in-out infinite alternate;
     transition-timing-function: cubic-bezier(.56,.01,.43,.99)
 }
 @keyframes fadeIn {
@@ -92,7 +92,6 @@ footer {
 	}
 }
 @media screen and (max-width: 767px) {
-（ここにモバイル用スタイルを記述）
 	.sp{
 	display: block;
 	}
