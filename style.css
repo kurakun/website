@@ -18,16 +18,13 @@ body {
     background: #ff81a3;
     color: #f7f6f3;
 }
-.slash{
-	font-size: 90%;
-}
 header{
     letter-spacing: 0.05em;
 }
 h1 {
     font-size: 2.4em;
-    margin: .6em 0 0 0;
 	font-weight: 100;
+    margin: .6em 0 0 0;
 }
 h2{
     font-size: 1.2em;
@@ -48,7 +45,6 @@ li {
 a {
     text-decoration: none;
     position: relative;
-    display: inline-block;
     transition: 0.36s;
 }
 a:link,
