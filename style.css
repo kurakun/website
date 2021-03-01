@@ -1,15 +1,14 @@
 @charset "UTF-8";
 html{
     font-family: 'Shippori Mincho B1', YuMincho, serif;
+    font-variant-ligatures: none;
     font-size: 1pc;
     background: #f7f6f3;
-    font-weight: 300;
 }
 body {
     font-feature-settings: palt\1;
     color: #504a4a;
     margin-left: 2em;
-    letter-spacing: 0.05em;
 }
 ::selection {
     background: #ff81a3;
@@ -19,12 +18,20 @@ body {
     background: #ff81a3;
     color: #f7f6f3;
 }
+.slash{
+	font-size: 90%;
+}
+header{
+    letter-spacing: 0.05em;
+}
 h1 {
     font-size: 2.4em;
     margin: .6em 0 0 0;
+	font-weight: 100;
 }
 h2{
     font-size: 1.2em;
+    font-weight: 100;
     margin: 0 0 0 0.12em;
     line-height: 1.8em;
 }
@@ -61,7 +68,7 @@ footer {
     position: absolute;
     bottom: 0.3rem;
     font-size: 0.6em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.075em;
 }
 .footerlink:after {
     content: none;
