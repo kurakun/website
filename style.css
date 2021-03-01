@@ -10,7 +10,8 @@ body {
     margin-left: 2em;
     max-width: 960px;
     width: 100%;
-    animation: fadeIn 12s ease-in-out infinite alternate;
+    animation: fadeIn 9s ease-in-out infinite alternate;
+    animation-delay: 1.5s;
     transition-timing-function: cubic-bezier(.56,.01,.43,.99)
 }
 @keyframes fadeIn {
