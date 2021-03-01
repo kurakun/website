@@ -10,8 +10,7 @@ body {
     margin: 0 auto;
     max-width: 1600px;
     width: 100%;
-    animation: fadeIn 9s ease-in-out infinite alternate;
-    animation-delay: 1.8s;
+    animation: fadeIn 12s ease-in-out infinite alternate;
 }
 @keyframes fadeIn {
 	from {opacity: 0;}
@@ -35,12 +34,12 @@ h1 {
     font-size: 2.4em;
 	font-weight: 100;
 	letter-spacing: 0.05em;
+	margin-bottom: 0;
 }
 h2 {
     font-size: 1pc;
 	font-weight: 100;
 	letter-spacing: 0.065em;
-	line-height: 0.25em;
 }
 ul {
 	margin: 5em auto;
