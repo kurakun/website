@@ -7,9 +7,16 @@ html{
 }
 body {
     font-feature-settings: palt\1;
-    color: #504a4a;
     margin-left: 2em;
+    max-width: 960px;
+    width: 100%;
+    animation: fadeIn 9s ease-in-out infinite alternate;
+    transition-timing-function: cubic-bezier(.56,.01,.43,.99)
 }
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+	}
 ::selection {
     background: #ff81a3;
     color: #f7f6f3;
@@ -18,49 +25,59 @@ body {
     background: #ff81a3;
     color: #f7f6f3;
 }
-header{
-    letter-spacing: 0.05em;
+header {
+	letter-spacing: 0.05em;
+	color: #423131;
 }
 h1 {
     font-size: 2.4em;
 	font-weight: 100;
+	letter-spacing: 0.05em;
     margin: .6em 0 0 0;
 }
-h2{
-    font-size: 1.2em;
-    font-weight: 100;
-    margin: 0 0 0 0.12em;
-    line-height: 1.8em;
+h2 {
+    font-size: 1pc;
+	font-weight: 100;
+	letter-spacing: 0.065em;
+    margin: .6em 0 0 0;
+}
+section {
+	margin-top: 3em;
 }
 ul {
     padding: 0;
-    margin-left: 0.1em;
+    margin-left: 0.12em;
 }
 li {
     list-style: none;
     line-height: 1.8em;
-	display: inline-block;
+    letter-spacing: 0.075em;
 	margin: 0 .5rem 0 0;
 }
 a {
     text-decoration: none;
     position: relative;
     transition: 0.36s;
+    color: #423131;
 }
-a:link,
 a:visited {
-    color: #504a4a;
+    color: #423131;
 }
 a:hover {
     color: #ff81a3;
 }
 a:hover:after {
-    width: 0.9rem;
+    width: 0.9em;
 }
 a:active {
-    color: #fd4a7a;
+    color: #e83665;
+}
+i{
+    font-size: 0.75em;
+    padding-right: 0.25em;
 }
 footer {
+	color: #423131;
     position: absolute;
     bottom: 0.3rem;
     font-size: 0.6em;
