@@ -86,3 +86,14 @@ footer {
 .footerlink:after {
     content: none;
 }
+@media screen and (min-width: 768px) {
+	.sp{
+	display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+（ここにモバイル用スタイルを記述）
+	.sp{
+	display: block;
+	}
+}
