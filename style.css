@@ -56,46 +56,26 @@ html {
 
 body{
   font-feature-settings: palt\1;
-  max-width: 2000px;
-  width: 100%;
+  background: #f7f6f3;
   padding: 1.8em;
 }
 .sp{display: none;}
 .bg_colour{
-    background: linear-gradient(143deg, #f7f6f3, #f7f6f3, #e7e6e3);
-    background-size: 2400% 2400%;
-
-    -webkit-animation: bg_colour 40s ease infinite;
-    -moz-animation: bg_colour 40s ease infinite;
-    -o-animation: bg_colour 40s ease infinite;
-    animation: bg_colour 40s ease infinite;
+    background: linear-gradient(90deg, #f7f6f3, #ffc4d6, #f7f6f3);
+    background-size: 600% 600%;
+    animation: bg_colour 30s ease infinite;
 }
 
-@-webkit-keyframes bg_colour {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
-}
-@-moz-keyframes bg_colour {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
-}
-@-o-keyframes bg_colour {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
-}
 @keyframes bg_colour {
-    0%{background-position:99% 0%}
-    50%{background-position:2% 100%}
-    100%{background-position:99% 0%}
+    0%{background-position:left top}
+    50%{background-position:right bottom}
+    100%{background-position:left top}
 }
 
 header, footer{
 	  animation: fadeIn 15s ease-in-out infinite alternate;
 }
-@keyframes fadeIn {
+@keyframes fadeIna {
   0% {
     opacity: 0;
     color: transparent;
@@ -118,18 +98,32 @@ color: transparent;
 }
 
 h1 {
-  font-size: 2.4em;
-  font-weight: 100;
-  margin-bottom: 0;
   letter-spacing: 0.05em;
-  line-height: 1.5em;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ttl {
+	font-size: 2.8em;
+	text-align: center;
 }
 h2 {
-  font-size: 1pc;
-  font-weight: 100;
-  margin: .5em 0;
-  letter-spacing: 0.065em;
-  line-height: 1.5em;
+  	width: 60px;
+	height: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.subttl{
+	color: #423131;
+	font-size: .4em;
+	letter-spacing: .04em;
+}
+sup{
+	vertical-align: text-top;
+	font-size: 10px;
 }
 a {
   text-decoration: none;
@@ -138,10 +132,7 @@ a {
   color: #423131;
 }
 a:hover {
-  color: transparent;
-}
-a:hover:after {
-  width: 0.9em;
+  color: #ee547d;
 }
 a:active {
   color: #e83665;
