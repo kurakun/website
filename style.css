@@ -63,7 +63,7 @@ body{
 .sp{display: none;}
 .bg_colour{
     background: linear-gradient(124deg, #f7f6f3, #f7f6f3, #f8f2d8, #e7e6e3, #f7f6f3, #f7f6f3);
-    background-size: 2000% 2000%;
+    background-size: 6000% 3000%;
 
     -webkit-animation: bg_colour 45s ease infinite;
     -moz-animation: bg_colour 45s ease infinite;
