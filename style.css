@@ -62,6 +62,7 @@ body{
 }
 .sp{display: none;}
 .bg_colour{
+
     background: linear-gradient(324deg, #f7f6f3, #f7f6f3, #e7e6e3);
     background-size: 600% 600%;
 
@@ -72,24 +73,24 @@ body{
 }
 
 @-webkit-keyframes bg_colour {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 @-moz-keyframes bg_colour {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 @-o-keyframes bg_colour {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 @keyframes bg_colour {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 
 header, footer{
