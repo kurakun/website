@@ -61,33 +61,35 @@ body{
   padding: 1.8em;
 }
 .sp{display: none;}
-.bg_colour {
-    background: linear-gradient(143deg, #f7f6f3, #f7f6f3, #f8f2d8);
-    background-size: 1000% 1000%;
+.bg_colour{
+    background: linear-gradient(124deg, #f7f6f3, #f7f6f3, #f8f2d8, #e7e6e3, #f7f6f3, #f7f6f3);
+    background-size: 1200% 1200%;
+
     -webkit-animation: bg_colour 45s ease infinite;
     -moz-animation: bg_colour 45s ease infinite;
     -o-animation: bg_colour 45s ease infinite;
     animation: bg_colour 45s ease infinite;
 }
+
 @-webkit-keyframes bg_colour {
-    0%{background-position:0% 53%}
-    50%{background-position:100% 48%}
-    100%{background-position:0% 53%}
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
 }
 @-moz-keyframes bg_colour {
-    0%{background-position:0% 53%}
-    50%{background-position:100% 48%}
-    100%{background-position:0% 53%}
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
 }
 @-o-keyframes bg_colour {
-    0%{background-position:0% 53%}
-    50%{background-position:100% 48%}
-    100%{background-position:0% 53%}
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
 }
 @keyframes bg_colour {
-    0%{background-position:0% 53%}
-    50%{background-position:100% 48%}
-    100%{background-position:0% 53%}
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
 }
 header, footer{
 	  animation: fadeIn 15s ease-in-out infinite alternate;
@@ -105,13 +107,13 @@ header, footer{
 }
 
 ::selection {
-	background-color: #ff81a3;
-  color: transparent;
+background-color: transparent;
+color: transparent;
 }
 
 ::-moz-selection {
-	background-color: #ff81a3;
-  color: #f7f6f3;
+background-color: transparent;
+color: transparent;
 }
 
 h1 {
@@ -135,7 +137,7 @@ a {
   color: #423131;
 }
 a:hover {
-  color: #ff81a3;
+  color: transparent;
 }
 a:hover:after {
   width: 0.9em;
@@ -153,7 +155,7 @@ li {
 	margin-left: 2em;
 }
 li:before{
-	content: '>';
+	content: '';
 	display: table-cell;
 	padding-right: .5em
 }
