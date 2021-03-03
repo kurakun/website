@@ -90,12 +90,12 @@ body{
     100%{background-position:0% 53%}
 }
 header, footer{
-	  animation: fadeIn 12s ease-in-out infinite alternate;
+	  animation: fadeIn 15s ease-in-out infinite alternate;
 }
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    color: #f7f6f3;
+    color: transparent;
   }
 
   100% {
@@ -105,10 +105,12 @@ header, footer{
 }
 
 ::selection {
-  color: #f7f6f3;
+	background-color: #ff81a3;
+  color: transparent;
 }
 
 ::-moz-selection {
+	background-color: #ff81a3;
   color: #f7f6f3;
 }
 
