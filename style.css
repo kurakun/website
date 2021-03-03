@@ -61,36 +61,32 @@ body{
   padding: 1.8em;
 }
 .sp{display: none;}
-.bg_colour{
-    background: linear-gradient(124deg, #f7f6f3, #f7f6f3, #f8f2d8, #e7e6e3, #f7f6f3, #f7f6f3);
-    background-size: 6000% 3000%;
+.bg_colour {
+    background: linear-gradient(324deg, #f7f6f3, #f7f6f3, #f8f2d8, #e7e6e3);
+    background-size: 800% 800%;
 
     -webkit-animation: bg_colour 45s ease infinite;
     -moz-animation: bg_colour 45s ease infinite;
-    -o-animation: bg_colour 45s ease infinite;
     animation: bg_colour 45s ease infinite;
 }
 
 @-webkit-keyframes bg_colour {
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-moz-keyframes bg_colour {
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
-}
-@-o-keyframes bg_colour {
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @keyframes bg_colour {
-    0%{background-position:100% 0%}
-    50%{background-position:0% 100%}
-    100%{background-position:100% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
+
+
 header, footer{
 	  animation: fadeIn 15s ease-in-out infinite alternate;
 }
