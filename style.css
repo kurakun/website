@@ -73,7 +73,7 @@ body{
 }
 
 header, footer{
-	  animation: fasdeIn 15s ease-in-out infinite alternate;
+	  animation: fadeIn 15s ease-in-out infinite alternate;
 }
 @keyframes fadeIn {
   0% {
