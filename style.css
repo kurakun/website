@@ -73,7 +73,7 @@ body{
 }
 
 header, footer{
-	  animation: fadeIn 15s ease-in-out infinite alternate;
+	  animation: fasdeIn 15s ease-in-out infinite alternate;
 }
 @keyframes fadeIn {
   0% {
@@ -97,29 +97,29 @@ background-color: transparent;
 color: transparent;
 }
 
+header{
+
+	width: 60px;
+}
 h1 {
   letter-spacing: 0.05em;
-	width: 60px;
-	height: 60px;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
 }
 .ttl {
-	font-size: 2.8em;
+	font-size: 44.8px;
 	text-align: center;
+		justify-content: space-around;
+	align-items: center;
 }
 h2 {
-  	width: 60px;
-	height: 10px;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+		justify-content: space-around;
+		line-height: 150%;
 }
 .subttl{
 	color: #423131;
-	font-size: .4em;
-	letter-spacing: .04em;
+	font-size: 10px;
+	letter-spacing: 0.02em;
 }
 sup{
 	vertical-align: text-top;
