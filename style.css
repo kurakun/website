@@ -65,10 +65,10 @@ body{
     background: linear-gradient(324deg, #f7f6f3, #f7f6f3, #e7e6e3);
     background-size: 600% 600%;
 
-    -webkit-animation: bg_colour 6s ease infinite;
-    -moz-animation: bg_colour 6s ease infinite;
-    -o-animation: bg_colour 6s ease infinite;
-    animation: bg_colour 6s ease infinite;
+    -webkit-animation: bg_colour 40s ease infinite;
+    -moz-animation: bg_colour 40s ease infinite;
+    -o-animation: bg_colour 40s ease infinite;
+    animation: bg_colour 40s ease infinite;
 }
 
 @-webkit-keyframes bg_colour {
