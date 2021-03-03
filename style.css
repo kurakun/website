@@ -75,7 +75,7 @@ body{
 header, footer{
 	  animation: fadeIn 15s ease-in-out infinite alternate;
 }
-@keyframes fadeIna {
+@keyframes fadeIn {
   0% {
     opacity: 0;
     color: transparent;
