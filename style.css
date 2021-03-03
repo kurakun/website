@@ -61,13 +61,14 @@ body{
   padding: 1.8em;
 }
 .sp{display: none;}
-.bg_colour {
-    background: linear-gradient(324deg, #f7f6f3, #f7f6f3, #f8f2d8, #e7e6e3);
-    background-size: 800% 800%;
+.bg_colour{
+    background: linear-gradient(324deg, #f7f6f3, #f7f6f3, #e7e6e3);
+    background-size: cover;
 
-    -webkit-animation: bg_colour 45s ease infinite;
-    -moz-animation: bg_colour 45s ease infinite;
-    animation: bg_colour 45s ease infinite;
+    -webkit-animation: bg_colour 6s ease infinite;
+    -moz-animation: bg_colour 6s ease infinite;
+    -o-animation: bg_colour 6s ease infinite;
+    animation: bg_colour 6s ease infinite;
 }
 
 @-webkit-keyframes bg_colour {
@@ -76,6 +77,11 @@ body{
     100%{background-position:0% 50%}
 }
 @-moz-keyframes bg_colour {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes bg_colour {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
