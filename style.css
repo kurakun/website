@@ -60,6 +60,7 @@ body{
   width: 100%;
   padding: 1.8em;
 }
+.sp{display: none;}
 .bg_colour {
     background: linear-gradient(143deg, #f7f6f3, #f7f6f3, #f8f2d8);
     background-size: 1000% 1000%;
@@ -118,7 +119,6 @@ h1 {
   letter-spacing: 0.05em;
   line-height: 1.5em;
 }
-
 h2 {
   font-size: 1pc;
   font-weight: 100;
@@ -156,9 +156,15 @@ li:before{
 	padding-right: .5em
 }
 footer {
+	color: #423131;
   position: fixed;
   bottom: 1rem;
   font-size: 0.6em;
   letter-spacing: 0.075em;
-  line-height: 2em;  
+  line-height: 2em;
+}
+@media screen and (max-width: 600px) {
+	.sp{
+		display: block;
+	}
 }
