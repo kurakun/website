@@ -61,7 +61,7 @@ body{
 }
 .sp{display: none;}
 .bg_colour{
-    background: linear-gradient(90deg, #f7f6f3 75%, #ffc4d6 100%, #f7f6f3 75%);
+    background: linear-gradient(90deg, #f7f6f3 75%, #c89f62 100%, #f7f6f3 75%);
     background-size: 600% 600%;
     animation: bg_colour 30s ease infinite;
 }
