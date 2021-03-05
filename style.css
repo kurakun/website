@@ -61,7 +61,7 @@ body{
 }
 .sp{display: none;}
 .bg_colour{
-    background: linear-gradient(90deg, #f7f6f3 75%, #c89f62 100%, #f7f6f3 75%);
+    background: linear-gradient(90deg, #f7f6f3 50%, #c89f62 100%, #f7f6f3 50%);
     background-size: 600% 600%;
     animation: bg_colour 30s ease infinite;
 }
@@ -132,10 +132,10 @@ a {
   color: #423131;
 }
 a:hover {
-  color: #e6b160;
+  color: transparent;
 }
 a:active {
-  color: #c89f62;
+  color: #e6b160;
 }
 ul {
 	display: table;
