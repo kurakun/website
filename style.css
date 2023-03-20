@@ -131,29 +131,27 @@ a:active {
   color: #e6b160;
 }
 ul {
-	display: table;
 	margin: 2pc 0;
-	line-height: 2.5em;
+	position: fixed;
+	bottom: 1em;
+	letter-spacing: 0.075em
 }
 li {
 	display: table-row;
 	margin-left: 2em;
-	font-size: 1.2em
+	line-height: 2.5em;
+	font-size: 1em
 }
 li p{
-	font-size: 0.75em
-}
-li:before{
-	content: '';
-	display: table-cell;
-	padding-right: .5em
+	padding-bottom: 1.5em;
+	line-height: 1.75em;
+	font-size: .5em
 }
 footer {
 	color: #423131;
   position: fixed;
   bottom: 1rem;
-  font-size: 0.6em;
-  letter-spacing: 0.075em;
+  font-size: 0.75em;
   line-height: 2em;
 }
 @media screen and (max-width: 600px) {
