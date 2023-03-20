@@ -138,6 +138,12 @@ ul {
 li {
 	display: table-row;
 	margin-left: 2em;
+	font-size: 0.2em
+}
+li > p{
+	display: table-row;
+	margin-left: 2em;
+	font-size: 0.1em
 }
 li:before{
 	content: '';
