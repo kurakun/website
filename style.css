@@ -60,44 +60,6 @@ body{
   padding: 1.8em;
 }
 .sp{display: none;}
-/*
-.bg_colour{
-	background: linear-gradient(90deg, #f7f6f3 50%, #c89f62 100%, #f7f6f3 50%);
-	background-size: 600% 600%;
-	animation: bg_colour 30s ease infinite;
-}
-
-@keyframes bg_colour {
-	0%{background-position:left top}
-	50%{background-position:right bottom}
-	100%{background-position:left top}
-}
-
-.wrapper{
-	  animation: fadeIn 15s ease-in-out infinite alternate;
-}
-@keyframes fadeIn {
-  0% {
-	opacity: 0;
-	color: transparent;
-  }
-
-  100% {
-	opacity: 1;
-	color: #423131;
-  }
-}
-
-::selection {
-background-color: transparent;
-color: transparent;
-}
-
-::-moz-selection {
-background-color: transparent;
-color: transparent;
-}
-*/
 
 header{
 	width:  44.8px;
@@ -138,12 +100,13 @@ ul {
 }
 li {
 	display: table-row;
+	margin-left: 2em;
 	line-height: 2em;
 	font-size: 1.2em
 }
 li p{
 	padding-bottom: 1.5em;
-	line-height: 1.5em;
+	line-height: 1.75em;
 	font-size: .6em
 }
 footer {
@@ -155,13 +118,12 @@ footer {
 }
 .clickable-li {
   display: block;
-  padding: 0;
-  margin: 0;
+  margin: 0 0.1em;
   text-decoration: none;
   color: inherit;
 }
 .clickable-li:hover {
-  background-color: #f7f6f3;
+  color: rgb(155, 150, 118)
 }
 @media screen and (max-width: 600px) {
 	.sp{
